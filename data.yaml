@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['arrow', 'border', 'circle', 'path', 'rectangle']
+
+roboflow:
+  workspace: yashs-workspace-uo4dr
+  project: self-driving-car-dataset-gdik1
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yashs-workspace-uo4dr/self-driving-car-dataset-gdik1/dataset/3
